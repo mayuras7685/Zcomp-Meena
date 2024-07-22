@@ -2,7 +2,9 @@ import os
 import anthropic 
 from typing import List 
 import subprocess 
+from dotenv import load_dotenv
 
+load_dotenv()
 
 language_mapping = {
     '.py': 'Python',
@@ -12,7 +14,7 @@ language_mapping = {
 }
 
 
-client = anthropic.Anthropic( api_key="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", ) 
+client = anthropic.Anthropic( api_key= api_key, ) 
 
 def read_file_content(filename: str) -> str: 
     with open(filename, 'r') as file: 
