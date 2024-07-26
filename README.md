@@ -5,10 +5,14 @@ It's been used to compile **{ C , Rust , Python , Solidity , Zokrates }** to **{
 
 ## **[Usage](#usage)**
 
-> git clone https://github.com/mayuras7685/Zcomp-Meena
-Then run this shell script in the Zcomp-Meena directory
+```
+git clone https://github.com/mayuras7685/Zcomp-Meena
+```
+> Then run this api script in the Zcomp-Meena directory
 
-> python3  api.py
+```python
+ python3  api.py
+```
 Then you'll be prompted to input three types of files :
 
 - source file ( supported types --> .sol , .py , .rs , .zok , .c)
